@@ -1,0 +1,12 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="cube_319772 1" clip-path="url(#clip0_1205_9891)">
+<path id="Vector" d="M10.2849 0.174949C10.1008 0.108269 9.89911 0.108269 9.71493 0.174949L1.05325 3.32495L9.99993 6.73327L18.9466 3.32495L10.2849 0.174949Z" fill="white" fill-opacity="0.5"/>
+<path id="Vector_2" d="M10.8335 8.19969V19.8755L18.6185 16.7422C20.0002 16.2504 20.0001 15.4755 20.0001 15.1255V4.70801L10.8335 8.19969Z" fill="white" fill-opacity="0.5"/>
+<path id="Vector_3" d="M0 15.1255C0 15.4755 0 16.2504 1.38165 16.7422L9.16664 19.8755V8.19969L0 4.70801V15.1255Z" fill="white" fill-opacity="0.5"/>
+</g>
+<defs>
+<clipPath id="clip0_1205_9891">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>
