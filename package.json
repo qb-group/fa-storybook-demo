@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy-storybook": "touch ./storybook-static/.nojekyll && gh-pages -d storybook-static -t true"
+    "deploy-storybook": "touch ./storybook-static/.nojekyll && gh-pages -d storybook-static -m $(date \"+%Y-%m-%d_%H:%M\") -t true"
   },
   "keywords": [],
   "author": "",
