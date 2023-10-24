@@ -1,0 +1,4 @@
+import{j as a}from"./jsx-runtime-7ed143f6.js";import{P as i}from"./index-636f3ace.js";import"./_baseForOwn-126b22f4.js";import"./_commonjsHelpers-de833af9.js";import"./index-9d475cdf.js";import"./toNumber-b186eb87.js";const g={title:"DESIGN-SYSTEM/ui/PageTitle",component:i,tags:["autodocs"],argTypes:{flexDirection:{control:"inline-radio",options:["row","column"]},titleSize:{control:"inline-radio",options:["xl","lg","base","sm","xs"]}}},n=s=>a.jsx(i,{...s}),e=n.bind({});e.args={flexDirection:"row",title:"Title",titleSize:"xl",description:"Description을 작성해주세요. 어떤 element를 작성해도 돼요.",hasSeparator:!0};var t,r,o;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`args => {
+  return <PageTitle {...args} />;
+}`,...(o=(r=e.parameters)==null?void 0:r.docs)==null?void 0:o.source}}};const x=["Default"];export{e as Default,x as __namedExportsOrder,g as default};
+//# sourceMappingURL=PageTitle.stories-1a7924d5.js.map
