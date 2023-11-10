@@ -1,0 +1,14 @@
+import{j as e}from"./jsx-runtime-4ca860c5.js";import{r as u}from"./index-61bf1805.js";import{S as O}from"./index-72e08c2e.js";import{f as i,C as x,B as g}from"./index-890f3064.js";import{T as C}from"./index-741d507f.js";import"./_commonjsHelpers-de833af9.js";import"./_baseForOwn-fcf16290.js";import"./index-9d475cdf.js";const v={title:"DESIGN-SYSTEM/ui/Confirm",component:i,tags:["autodocs"],argTypes:{titleAlign:{control:"inline-radio",options:["left","center"]},bodyAlign:{control:"inline-radio",options:["left","center"]},actionsAlign:{control:"inline-radio",options:["center","right"]}},decorators:[n=>e.jsx(x,{alignItems:"center",className:"py-6 px-8",children:e.jsx(n,{})})]},h=n=>{const[o,s]=u.useState(!1);return e.jsxs(e.Fragment,{children:[e.jsx(g,{onClick:()=>s(a=>!a),children:"Open modal"}),e.jsx(i,{...n,isOpen:o,onClose:()=>s(!1),onRequestClose:()=>s(!1)})]})},t=h.bind({});t.args={titleAlign:"left",title:e.jsx(e.Fragment,{children:"타이틀을 넣어보세요. 길게 작성해보세요."}),onAfterOpen:()=>{},onAfterClose:()=>{},actionsAlign:"right",children:e.jsx(O,{alignItems:"start",children:e.jsx(C,{children:"컨텐츠를 자유롭게 작성해보세요."})}),closeLabel:"닫아요",successLabel:"확인했어요",contentLabel:"storybook-confirm",hasCustomActions:!1,shouldCloseOnOverlayClick:!0};const j=n=>{const[o,s]=u.useState(!1);return e.jsxs(e.Fragment,{children:[e.jsx(g,{onClick:()=>s(a=>!a),children:"Open modal"}),e.jsx(i,{...n,isOpen:o,onClose:()=>s(!1)})]})},r=j.bind({});r.args={titleAlign:"center",title:e.jsxs(e.Fragment,{children:["타이틀을 넣어보세요. 길게 작성해보세요. 모달의 너비가 얼마나 넓어지는지 체험해보세요.",e.jsx("br",{}),"줄바꿈하고 싶은 자리 뒤에 ","<br />"," 태그를 넣어보세요."]}),onAfterOpen:()=>{alert("isOpen을 true로 바꾸셨네요!")},onAfterClose:()=>{},actionsAlign:"center",children:e.jsx(O,{children:e.jsx(C,{children:"컨텐츠를 자유롭게 작성해보세요."})}),hasCustomActions:!1};var l,c,p;t.parameters={...t.parameters,docs:{...(l=t.parameters)==null?void 0:l.docs,source:{originalSource:`args => {
+  const [isOpen, setIsOpen] = useState(false);
+  return <>
+      <Button onClick={() => setIsOpen(prev => !prev)}>Open modal</Button>
+      <Confirm {...args} isOpen={isOpen} onClose={() => setIsOpen(false)} onRequestClose={() => setIsOpen(false)} />
+    </>;
+}`,...(p=(c=t.parameters)==null?void 0:c.docs)==null?void 0:p.source}}};var m,d,f;r.parameters={...r.parameters,docs:{...(m=r.parameters)==null?void 0:m.docs,source:{originalSource:`args => {
+  const [isOpen, setIsOpen] = useState(false);
+  return <>
+      <Button onClick={() => setIsOpen(prev => !prev)}>Open modal</Button>
+      <Confirm {...args} isOpen={isOpen} onClose={() => setIsOpen(false)} />
+    </>;
+}`,...(f=(d=r.parameters)==null?void 0:d.docs)==null?void 0:f.source}}};const E=["Default","HasALotOfWords"];export{t as Default,r as HasALotOfWords,E as __namedExportsOrder,v as default};
+//# sourceMappingURL=Confirm.stories-84e63ec2.js.map
