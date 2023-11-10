@@ -1,0 +1,9 @@
+import{j as o}from"./jsx-runtime-4ca860c5.js";import"./index-43f7a015.js";import{a as s}from"./index-62ab68bf.js";import"./index-8cf7e38c.js";import{u as l,F as m}from"./index-fbaf4a77.js";import{c,a as p}from"./index.esm-2961b60f.js";import{o as d}from"./yup-ce9fdf22.js";import"./index-61bf1805.js";import"./_commonjsHelpers-de833af9.js";import"./_baseForOwn-561664b0.js";import"./formatters-2cdf89d2.js";import"./dayjs.min-941aafe8.js";import"./index-538b702c.js";import"./index-9d475cdf.js";const u=c().shape({"storybook-textarea":p().required("인풋 제대로 입력해주세요")}),_={title:"DESIGN-SYSTEM/forms/Textarea",component:s,tags:["autodocs"],argTypes:{type:{control:"select",options:["number","text","password"]},flexDirection:{control:"inline-radio",options:["row","column"]},variant:{control:"inline-radio",options:["bordered","ghost"]},size:{control:"inline-radio",options:["lg","md","sm","xs"]},align:{control:"inline-radio",options:["left","center","right"]},color:{control:"inline-radio",options:["primary","secondary"]}}},f=i=>{const n=l({resolver:d(u)});return o.jsx(m,{...n,children:o.jsx(s,{...i})})},r=f.bind({});r.args={name:"storybook-textarea",placeholder:"try controls",variant:"bordered",size:"md",align:"left",color:"primary",label:"label",required:!0,defaultValue:"Default Value",disabled:!1,readOnly:!1,flexDirection:"column",clearable:!0};var e,t,a;r.parameters={...r.parameters,docs:{...(e=r.parameters)==null?void 0:e.docs,source:{originalSource:`args => {
+  const formMethods = useForm<FormFields>({
+    resolver: yupResolver(formSchema)
+  });
+  return <FormProvider {...formMethods}>
+      <Textarea {...args} />
+    </FormProvider>;
+}`,...(a=(t=r.parameters)==null?void 0:t.docs)==null?void 0:a.source}}};const k=["Default"];export{r as Default,k as __namedExportsOrder,_ as default};
+//# sourceMappingURL=Textarea.stories-f53ba582.js.map
