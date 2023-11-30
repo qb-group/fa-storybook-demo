@@ -1,0 +1,2 @@
+import{j as o}from"./jsx-runtime-4ca860c5.js";/* empty css              */import"./index-5cb10bd9.js";import"./img_investment_bias_diagnosis_consultation_4x-2a96972d.js";import"./index-674584b1.js";import{T as r}from"./index-f500090c.js";import"./index-3e6b6589.js";const c=()=>o.jsx("div",{className:"qb-footer",children:o.jsx(r,{className:"qb-footer__copyright",size:"xs",children:"© 2017. QUARTERBACK INVESTMENTS Co.,Ltd."})});export{c as F};
+//# sourceMappingURL=index-f575f549.js.map
